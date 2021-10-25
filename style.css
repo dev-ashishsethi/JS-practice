@@ -1,0 +1,44 @@
+#text{
+    display: block;
+    margin: 4rem 0rem 0rem 2rem;
+    width: 20rem;
+    height: 5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    resize: none;
+}
+#text:focus{
+    outline: none !important;
+    border-color: tomato;
+}
+
+.btn-primary{
+    /* display: block; */
+    margin: 2rem 0rem 0rem 8rem;
+    background-color: brown;
+    color: white;
+    border-radius: 5px;
+    width: 6rem;
+    height: 2rem;
+    box-sizing: content-box;
+    border-width: 2px;
+    border-style:solid;
+    border-color: brown;
+    
+}
+/* .btn-primary:link{
+    color: white;
+}
+.btn-primary:hover{
+    color: blue;
+}
+
+.btn-primary:active{
+    background-color: rgb(177, 59, 38);
+} */
+.btn-primary:hover {
+    background-color: #ffffff;
+    color: brown;
+    border-color: brown;
+    cursor: pointer;
+  }
+
