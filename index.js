@@ -1,4 +1,4 @@
-var txtarea= document.querySelector("#text");
+var txtarea= document.querySelector("#text1");
 var btntranslate= document.querySelector(".btn-primary");
 var otput= document.querySelector("#output");
 
@@ -11,6 +11,14 @@ function translate(inputTxt){
     +inputTxt;
 
     fetch(url).then(response => response.json())
-    .then(json =>{otput.innerText=json.contents.translated;});
+    .then(json =>{console.log(otput.innerText= json.contents.text)}).catch(errorHandler);
     
 }
+
+function errorHandler(error){
+    console.log(error);
+}
+
+// https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json
+
+// https://api.funtranslations.com/translate/minion.json
