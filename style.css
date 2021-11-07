@@ -61,16 +61,6 @@ body{
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
-/* .btn-primary:link{
-    color: white;
-}
-.btn-primary:hover{
-    color: blue;
-}
-
-.btn-primary:active{
-    background-color: rgb(177, 59, 38);
-} */
 .btn-primary:hover {
     background-color: #ffffff;
     color: var(--blueColor);
