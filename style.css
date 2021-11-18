@@ -101,7 +101,5 @@ body{
 .foot{
      position: absolute;
      flex-grow: 1;
-    /* margin-left: 72vw; */
-    bottom: 0;
-    /* z-index: 0; */
+     bottom: 0;
 }
