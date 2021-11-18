@@ -84,13 +84,13 @@ body{
 
 .outside{
     display: flex;
-    margin-top: 10rem;
+    margin-top: 12rem;
 }
 #output{
     display: block;
     flex-grow: 1;
     margin-left: 20rem;
-    
+    /* margin-top: 1rem; */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     resize: none;
     border: 1px solid black;
@@ -99,7 +99,7 @@ body{
 }
 
 .foot{
-     position: absolute;
+     /* position: absolute; */
      flex-grow: 1;
-     bottom: 0;
+     /* bottom: 0; */
 }
